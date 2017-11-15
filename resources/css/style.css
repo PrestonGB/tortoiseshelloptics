@@ -5,10 +5,11 @@ html {
 
 body {
   font-family: "Helvetica", sans-serif;
-  margin: 0;
+
 }
 
 header {
+  padding-top: 1rem;
   background-image: url("c://projects/tortoiseshelloptics/resources/images/glasses-bg.png");
   height: 30rem;
   background-size: cover;
@@ -51,15 +52,27 @@ ul li {
   padding: 1rem;
 }
 
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
 
 .motto {
   background-color:  white;
   color: black;
-  font-weight: bold;
-  font-size: 2rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
   line-height: 1.2;
 }
- .motto span {
-   padding: 1.5rem 5rem;
-   text-transform: uppercase;
- }
+
+.motto span{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
