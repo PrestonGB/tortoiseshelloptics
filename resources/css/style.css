@@ -12,9 +12,10 @@ header {
   padding-top: 1rem;
   background-image: url("c://projects/tortoiseshelloptics/resources/images/glasses-bg.png");
   height: 30rem;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+
 }
 
 .container {
@@ -161,4 +162,53 @@ footer img {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.33rem  }
+}
+
+
+@media only screen and (max-width: 470px) {
+  .menu ul {
+    display: none;
+  }
+  .menu ul.mobile {
+    display:block;
+  }
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .motto {
+    margin-top: 9rem;
+    margin-right: 0;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    }
+
+  .logo span {
+    display: none;
+  }
+
+  .usp {
+    flex-direction: column;
+    align-items: center;
+    padding: 3.77rem 0;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 0.77rem;
+    margin: .77rem 0;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 470px) {
+  .mobile {
+    display:none;
+  }
 }
