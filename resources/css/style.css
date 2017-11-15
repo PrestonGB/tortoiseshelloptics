@@ -105,3 +105,26 @@ header .flex {
 img {
   border-style: none;
 }
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  max-width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+}
+
+p {
+  padding: 1rem 0;
+}
