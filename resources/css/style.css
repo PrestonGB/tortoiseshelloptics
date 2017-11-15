@@ -204,6 +204,14 @@ footer img {
     margin: .77rem 0;
     height: auto;
   }
+footer{
+  justify-content: center;}
+footer img {
+  margin: 0;
+}
+footer span {
+  display: none;
+}
 
 }
 
