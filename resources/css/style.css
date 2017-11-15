@@ -1,0 +1,65 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url("c://projects/tortoiseshelloptics/resources/images/glasses-bg.png");
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav section {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+
+.menu {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 1rem;
+}
+
+
+.motto {
+  background-color:  white;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+ .motto span {
+   padding: 1.5rem 5rem;
+   text-transform: uppercase;
+ }
