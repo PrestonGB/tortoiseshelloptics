@@ -76,3 +76,32 @@ header .flex {
   font-weight: bold;
   font-size: 2rem;
 }
+
+.usp {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+
+.service img {
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+img {
+  border-style: none;
+}
